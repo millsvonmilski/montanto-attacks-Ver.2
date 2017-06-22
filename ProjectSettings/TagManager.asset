@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - enemi
+  - asteroid
+  - sol
+  - points
+  - fond
+  - gameOver
+  - restart
+  - camara1
+  - camara2
+  - camara3
+  - edificio2
+  - planta1
+  - fond2
+  - sol2
+  - esfera
+  - esfera3
+  - mainMenuCanvas
+  - mainMenu
+  - panel1
+  - panel2
+  - panel3
+  - intro
+  - choisir
+  - boton1
+  - boton2
+  - boton3
+  - enemi1
+  - enemi2
+  - enemi3
+  - score1
+  - score2
+  - score3
+  - labelScore1
+  - labelScore2
+  - labelScore3
+  - sol3
+  - fond3
+  - menu
+  - pressPcons
+  - mainAUDIO
+  - MainCamera2
+  - MainCamera3
+  - pauseAUDIO
+  - menuAnte
+  - edificioULTIMO
+  - asteroide
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

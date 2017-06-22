@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/_Scenes/scene1.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/menuPrincipal.unity
+    guid: c1b31b957d79140459442280e372204d
+  - enabled: 1
+    path: Assets/_Scenes/menuPrinVille.unity
+    guid: 40116c4af15e1444f8e21d1de1f4678f
+  - enabled: 0
+    path: Assets/_Scenes/monsanto.unity
+    guid: ac63a02419ff24cb2ab7a0204b2cad50
+  - enabled: 1
+    path: Assets/_Scenes/monsanto 1.unity
+    guid: c549d7f97312c41b4880c4004b1fa4fd
+  - enabled: 0
+    path: Assets/_Scenes/monsantoVARIAS.unity
+    guid: ef7ccf66d0bb145a59724a3f436179ac
+  - enabled: 1
+    path: Assets/_Scenes/interiorCIUDAD.unity
+    guid: d9e500c899b734cf09280ec121032ed2
+  - enabled: 0
+    path: Assets/_ScenesInterfaces/Drag And Drop.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/monsantoSegunda.unity
+    guid: 72477650d0db5486eb6a4db2af11e4ab
+  - enabled: 1
+    path: Assets/_Scenes/monsantoTercera.unity
+    guid: c72c2287c0f98402da47e5952c46c563
