@@ -1393,11 +1393,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 222.39807
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 70
+      value: 165
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 2}
       propertyPath: m_SizeDelta.x
@@ -1449,7 +1449,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.31
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 05a81c3d5091440058129444d28322f3, type: 2}
       propertyPath: m_TagString
@@ -1457,7 +1457,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.52
+      value: 0.82
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05a81c3d5091440058129444d28322f3, type: 2}
@@ -2682,11 +2682,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400014, guid: 1d49f63596dbd412fa2c32ef87fdf2f0, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 14.000019
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 22400014, guid: 1d49f63596dbd412fa2c32ef87fdf2f0, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -111.99988
+      value: -241
       objectReference: {fileID: 0}
     - target: {fileID: 22400014, guid: 1d49f63596dbd412fa2c32ef87fdf2f0, type: 2}
       propertyPath: m_SizeDelta.x
@@ -2758,11 +2758,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400014, guid: 1d49f63596dbd412fa2c32ef87fdf2f0, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.86999995
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 22400014, guid: 1d49f63596dbd412fa2c32ef87fdf2f0, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.0100018
+      value: 2.05
       objectReference: {fileID: 0}
     - target: {fileID: 22400014, guid: 1d49f63596dbd412fa2c32ef87fdf2f0, type: 2}
       propertyPath: m_LocalScale.z
@@ -3004,14 +3004,14 @@ RectTransform:
   m_GameObject: {fileID: 1367011322}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.35, y: 1.31, z: 0}
+  m_LocalScale: {x: 1.71, y: 1.62, z: 0}
   m_Children: []
   m_Father: {fileID: 572994062}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 639, y: -246}
+  m_AnchoredPosition: {x: 954, y: -341}
   m_SizeDelta: {x: 323.8, y: 35.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1367011324
@@ -3187,8 +3187,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -773.29956, y: 163.1}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -863.1493, y: 183.04999}
+  m_SizeDelta: {x: 179.70038, y: 39.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1430443499
 MonoBehaviour:
@@ -3268,14 +3268,14 @@ RectTransform:
   m_GameObject: {fileID: 1432932043}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 54.7}
-  m_LocalScale: {x: 0.64265406, y: 0.6, z: 2.26}
+  m_LocalScale: {x: 1.5, y: 1.3, z: 2.26}
   m_Children: []
   m_Father: {fileID: 572994062}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 107.8009, y: -21.810547}
+  m_AnchoredPosition: {x: 274, y: -59}
   m_SizeDelta: {x: 323.8, y: 35.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432932045
