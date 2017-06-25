@@ -1,8 +1,10 @@
-/*# ================================================================================================== #
+/* 
+# ================================================================================================== #
 #                                                                                                    #
 #                                                                                                    #
 #                                   Adaptado por: Argenis Mills                                      # 
 # ================================================================================================== #
+*/
 using System;
 using System.Collections;
 using UnityEngine;
@@ -11,8 +13,7 @@ using UnityEditor;
 
 #endif
 
-namespace UnityStandardAssets.Utility
-{
+//namespace UnityStandardAssets.Utility {
     public class WaypointCircuit : MonoBehaviour
     {
         public WaypointList waypointList = new WaypointList();
@@ -225,10 +226,9 @@ namespace UnityStandardAssets.Utility
             }
         }
     }
-}
+//}
 
-namespace UnityStandardAssets.Utility.Inspector
-{
+//namespace UnityStandardAssets.Utility.Inspector{
 #if UNITY_EDITOR
     [CustomPropertyDrawer(typeof (WaypointCircuit.WaypointList))]
     public class WaypointListDrawer : PropertyDrawer
@@ -389,5 +389,4 @@ namespace UnityStandardAssets.Utility.Inspector
         }
     }
 #endif
-}
-*/
+//}
