@@ -3,12 +3,12 @@
 # This script manages the amount to look ahead along the route, and keeps track of progress and laps.#
 #                                   Adaptado por: Argenis Mills                                      # 
 # ================================================================================================== #
+*/
 
 using System;
 using UnityEngine;
 
-namespace UnityStandardAssets.Utility
-{
+//namespace UnityStandardAssets.Utility{
     public class WaypointProgressTracker : MonoBehaviour
     {
         [SerializeField] private WaypointCircuit circuit; // A reference to the waypoint-based route we should follow
@@ -169,9 +169,5 @@ namespace UnityStandardAssets.Utility
                 Gizmos.DrawLine(target.position, target.position + target.forward);
             }
         }
-
-
-        
     }
-}
-*/
+//}

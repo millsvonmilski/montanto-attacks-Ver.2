@@ -179,6 +179,8 @@
      <Compile Include="Assets\destruirConCLICK.cs" />
      <Compile Include="Assets\mueveNAVE.cs" />
      <Compile Include="Assets\myScripts\MuestraValorSLIDER.cs" />
+     <Compile Include="Assets\myScripts\ShipAiControl.cs" />
+     <Compile Include="Assets\myScripts\ShipController.cs" />
      <Compile Include="Assets\myScripts\WaypointCircuit.cs" />
      <Compile Include="Assets\myScripts\WaypointProgressTracker.cs" />
      <Compile Include="Assets\myScripts\camaraMOVE.cs" />

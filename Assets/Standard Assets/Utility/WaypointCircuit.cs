@@ -1,6 +1,6 @@
 using System;
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 #if UNITY_EDITOR
 using UnityEditor;
 
@@ -66,7 +66,7 @@ namespace UnityStandardAssets.Utility
                 Length = distances[distances.Length - 1];
             }
 
-            dist = Mathf.Repeat(dist, Length);
+            dist = Mathf.Repeat(dist, this.Length);
 
             while (distances[point] < dist)
             {

@@ -15549,12 +15549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27507c5d0efbbd47ac8c1de9a1a0a35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BuildTargetGroup: 0
-  m_Content: []
-  m_MonoBehaviours:
-  - {fileID: 1247402279}
-  - {fileID: 1247402285}
-  m_ChildrenOfThisObject: 0
 --- !u!1 &1248374895
 GameObject:
   m_ObjectHideFlags: 0
@@ -16841,11 +16835,11 @@ GameObject:
   - component: {fileID: 1715210077}
   - component: {fileID: 1715210076}
   - component: {fileID: 1715210075}
-  - component: {fileID: 1715210074}
   - component: {fileID: 1715210073}
   - component: {fileID: 1715210072}
   - component: {fileID: 1715210071}
   - component: {fileID: 1715210070}
+  - component: {fileID: 1715210074}
   m_Layer: 8
   m_Name: AircraftJetAI
   m_TagString: Player
@@ -16862,14 +16856,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1715210069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5cb22d331ef7d64796f917c6a455a32, type: 3}
+  m_Script: {fileID: 11500000, guid: e0d9325b511994ee1a77668cfa30a63f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 1740519257}
-  lookAheadForTargetOffset: 20
-  lookAheadForTargetFactor: 0.5
-  lookAheadForSpeedOffset: 20
-  lookAheadForSpeedFactor: 0.5
+  lookAheadForTargetOffset: 5
+  lookAheadForTargetFactor: 0.1
+  lookAheadForSpeedOffset: 10
+  lookAheadForSpeedFactor: 0.2
   progressStyle: 0
   pointToPointThreshold: 4
   target: {fileID: 1517970093}
@@ -16929,13 +16923,12 @@ Animator:
 --- !u!114 &1715210074
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400008, guid: 6f7604981ce4c064cbe5284c437c5699,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1715210069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643c971818f68d3439e84b5d8bdafe07, type: 3}
+  m_Script: {fileID: 11500000, guid: 285cfefef478947148644e86ddd149e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1715210075
