@@ -1,17 +1,16 @@
 ﻿using UnityEngine;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 
 public enum WaypointRotationMode
 {
-	None, Snap, Slerp
+    None, Snap, Slerp
 };
 
 [System.Serializable]
 public class Node 
 {
-
     public Node() { }
     public Node(Transform transform_)
     {
@@ -43,9 +42,9 @@ public class WaypointManager : MonoBehaviour {
     public int AgentQuantity { get { return objectToMove.Count; } }
     public int NodeQuantity {  get { return waypointNodes.Count; } }
     public Transform SpawnPoint { get { return m_spawnPoint; } }
+
+
 	//--------------------Unity Functions--------------------
-
-
     void Start()
     {
 		intervalRate = 1 / updateIntervalPerSecond;
@@ -199,11 +198,13 @@ public class WaypointManager : MonoBehaviour {
         Vector3 targetPosition = new Vector3(((Random.insideUnitSphere.x * 2) * nodeProximityDistance),
                                                         0 + (objectToSpawn.GetComponent<Collider>().bounds.extents.magnitude) / 2,
                                                         ((Random.insideUnitSphere.z * 2) * nodeProximityDistance));
+
         agent.currentNodeTarget = targetPosition + waypointNodes[agent.CurrentIndex].transform.position;
         agent.WaypointSystem = this;
         agent.WaypointRotation = rotationMode;
         agent.NodeProximityDistance = nodeProximityDistance;
         agent.SlerpSpeed = slerpRotationSpeed;
+
 
         return objectToSpawn;
     }
