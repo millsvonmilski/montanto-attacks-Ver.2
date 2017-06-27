@@ -7,8 +7,6 @@
 
 using System;
 using UnityEngine;
-
-//namespace UnityStandardAssets.Utility{
     public class WaypointProgressTracker : MonoBehaviour
     {
         [SerializeField] private WaypointCircuit circuit; // A reference to the waypoint-based route we should follow
@@ -170,4 +168,3 @@ using UnityEngine;
             }
         }
     }
-//}

@@ -12,8 +12,6 @@ using UnityEngine;
 using UnityEditor;
 
 #endif
-
-//namespace UnityStandardAssets.Utility {
     public class WaypointCircuit : MonoBehaviour
     {
         public WaypointList waypointList = new WaypointList();
@@ -226,9 +224,8 @@ using UnityEditor;
             }
         }
     }
-//}
 
-//namespace UnityStandardAssets.Utility.Inspector{
+
 #if UNITY_EDITOR
     [CustomPropertyDrawer(typeof (WaypointCircuit.WaypointList))]
     public class WaypointListDrawer : PropertyDrawer
@@ -389,4 +386,3 @@ using UnityEditor;
         }
     }
 #endif
-//}

@@ -150,6 +150,14 @@
      <Compile Include="Assets\PD UNITY\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\PD UNITY\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\PD UNITY\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Path.cs" />
+     <Compile Include="Assets\Rapid Waypoint System\Demo\Scripts\AgentSpawner.cs" />
+     <Compile Include="Assets\Rapid Waypoint System\Demo\Scripts\DemoCamera.cs" />
+     <Compile Include="Assets\Rapid Waypoint System\Demo\Scripts\MapGen.cs" />
+     <Compile Include="Assets\Rapid Waypoint System\Demo\Scripts\Tile.cs" />
+     <Compile Include="Assets\Rapid Waypoint System\Scripts\WaypointAgent.cs" />
+     <Compile Include="Assets\Rapid Waypoint System\Scripts\WaypointManager.cs" />
+     <Compile Include="Assets\Rapid Waypoint System\Scripts\WaypointNode.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\ReturnToMainMenu.cs" />
@@ -170,6 +178,7 @@
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\VehicleFollowing.cs" />
      <Compile Include="Assets\custom_scripts\aqkGameRoot.cs" />
      <Compile Include="Assets\custom_scripts\aqk_UniOSCMoveGameObject.cs" />
      <Compile Include="Assets\custom_scripts\aqk_kinect_quat.cs" />
@@ -179,8 +188,10 @@
      <Compile Include="Assets\destruirConCLICK.cs" />
      <Compile Include="Assets\mueveNAVE.cs" />
      <Compile Include="Assets\myScripts\MuestraValorSLIDER.cs" />
+     <Compile Include="Assets\myScripts\ObjectResetter.cs" />
      <Compile Include="Assets\myScripts\ShipAiControl.cs" />
      <Compile Include="Assets\myScripts\ShipController.cs" />
+     <Compile Include="Assets\myScripts\VehicleAvoidance.cs" />
      <Compile Include="Assets\myScripts\WaypointCircuit.cs" />
      <Compile Include="Assets\myScripts\WaypointProgressTracker.cs" />
      <Compile Include="Assets\myScripts\camaraMOVE.cs" />
