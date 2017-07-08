@@ -154,7 +154,6 @@
      <Compile Include="Assets\Rapid Waypoint System\Demo\Scripts\DemoCamera.cs" />
      <Compile Include="Assets\Rapid Waypoint System\Demo\Scripts\MapGen.cs" />
      <Compile Include="Assets\Rapid Waypoint System\Demo\Scripts\Tile.cs" />
-     <Compile Include="Assets\Rapid Waypoint System\Scripts\TestMueveNave.cs" />
      <Compile Include="Assets\Rapid Waypoint System\Scripts\WaypointAgent.cs" />
      <Compile Include="Assets\Rapid Waypoint System\Scripts\WaypointManager.cs" />
      <Compile Include="Assets\Rapid Waypoint System\Scripts\WaypointNode.cs" />
@@ -188,9 +187,13 @@
      <Compile Include="Assets\myScripts\Path.cs" />
      <Compile Include="Assets\myScripts\ShipAiControl.cs" />
      <Compile Include="Assets\myScripts\ShipController.cs" />
+     <Compile Include="Assets\myScripts\TestMueveNave.cs" />
      <Compile Include="Assets\myScripts\VehicleAvoidance.cs" />
      <Compile Include="Assets\myScripts\VehicleFollowing.cs" />
+     <Compile Include="Assets\myScripts\WaypointAgent.cs" />
      <Compile Include="Assets\myScripts\WaypointCircuit.cs" />
+     <Compile Include="Assets\myScripts\WaypointManager.cs" />
+     <Compile Include="Assets\myScripts\WaypointNode.cs" />
      <Compile Include="Assets\myScripts\WaypointProgressTracker.cs" />
      <Compile Include="Assets\myScripts\camaraMOVE.cs" />
      <Compile Include="Assets\myScripts\choisirVille.cs" />
@@ -204,6 +207,7 @@
      <Compile Include="Assets\myScripts\detruireByClick1.cs" />
      <Compile Include="Assets\myScripts\detruireLimits.cs" />
      <Compile Include="Assets\myScripts\enemiController.cs" />
+     <Compile Include="Assets\myScripts\enemiController1.cs" />
      <Compile Include="Assets\myScripts\intro.cs" />
      <Compile Include="Assets\myScripts\moveCAM.cs" />
      <Compile Include="Assets\myScripts\moveINTERIORVILLE.cs" />

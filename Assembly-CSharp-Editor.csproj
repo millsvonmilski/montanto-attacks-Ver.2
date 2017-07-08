@@ -52,6 +52,8 @@
      <Compile Include="Assets\OSC simpl\Base\Internal\Editor\OscOutInspector.cs" />
      <Compile Include="Assets\Rapid Waypoint System\Editor\WaypointManagerEditor.cs" />
      <Compile Include="Assets\Rapid Waypoint System\Editor\WaypointNodeEditor.cs" />
+     <Compile Include="Assets\myScripts\Editor\WaypointManagerEditor.cs" />
+     <Compile Include="Assets\myScripts\Editor\WaypointNodeEditor.cs" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\1NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\1NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

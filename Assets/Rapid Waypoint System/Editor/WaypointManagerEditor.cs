@@ -4,6 +4,8 @@ using UnityEditorInternal;
 using System.IO;
 using System.Collections.Generic;
 
+namespace rapid
+{
 public enum WaypointAdditionMode
 {
     Before,
@@ -248,4 +250,5 @@ public class WaypointManagerEditor : Editor {
         Handles.EndGUI();
     }
 
+}
 }

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+namespace rapid
+{
 public class AgentSpawner : MonoBehaviour {
 
     public GameObject m_agentPrefab;
@@ -27,4 +29,5 @@ public class AgentSpawner : MonoBehaviour {
             StartCoroutine(Spawn());
     }
 
+}
 }

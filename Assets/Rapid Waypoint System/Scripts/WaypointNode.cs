@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+namespace rapid
+{
 public class WaypointNode : MonoBehaviour {
 
     //void OnDestroy()
-
     public void OnDestroy()
     {
         if (Application.isEditor && !Application.isPlaying)
@@ -14,5 +14,5 @@ public class WaypointNode : MonoBehaviour {
                 FindObjectOfType<WaypointManager>().waypointNodes.RemoveAt(n);
         }
     }
-
+}
 }

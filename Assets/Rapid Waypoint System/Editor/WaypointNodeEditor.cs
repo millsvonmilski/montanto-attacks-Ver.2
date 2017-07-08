@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections;
-
+namespace rapid
+{
 [CustomEditor(typeof(WaypointNode))]
 public class WaypointNodeEditor :  Editor{
 
@@ -23,4 +24,5 @@ public class WaypointNodeEditor :  Editor{
         EditorGUILayout.LabelField("DO NOT DELETE THIS COMPONENT! \nIt is required for the waypoint system to function properly.", GUILayout.MinHeight(EditorGUIUtility.singleLineHeight * 3));
         serializedObject.ApplyModifiedProperties();
     }
+}
 }

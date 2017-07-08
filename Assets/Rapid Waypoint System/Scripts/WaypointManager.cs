@@ -2,7 +2,8 @@
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
-
+namespace rapid
+{
 public enum WaypointRotationMode
 {
     None, Snap, Slerp
@@ -335,5 +336,5 @@ public class WaypointManager : MonoBehaviour {
 
     #endregion 
 }
-
+}
 

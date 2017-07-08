@@ -1,13 +1,15 @@
 using UnityEngine;
 using System.Collections;
 
+namespace montanto
+{
 public class TestMueveNave : MonoBehaviour {
 
-    public GameObject m_agentPrefab;
+    public GameObject m_agentPrefab;  // Aca tengo una instancia del Objeto enemigo
     public GameObject asteroide;
     public Transform shotSpaw;
     protected WaypointManager m_waypointManager;
-    public enemiController controladorNave;
+    public enemiController1 controladorNave;
     float spawnWaitLocal;
     //public int m_amountToSpawn;
     //public float spawnInterval = 1.25f;
@@ -24,7 +26,7 @@ public class TestMueveNave : MonoBehaviour {
 
 		if (controladorObjetoNave != null)
 		{
-			controladorNave = controladorObjetoNave.GetComponent<enemiController>();
+			controladorNave = controladorObjetoNave.GetComponent<enemiController1>();
 		}
             StartCoroutine(Spawn());           
 	}
@@ -34,7 +36,7 @@ public class TestMueveNave : MonoBehaviour {
         spawnWaitLocal = controladorNave.spawnWait;       
     }
 
-    IEnumerator Spawn()
+    public IEnumerator Spawn()
     {
        
        	yield return new WaitForSeconds(spawnWaitLocal);
@@ -87,4 +89,5 @@ public class TestMueveNave : MonoBehaviour {
             StartCoroutine(Spawn());
         */
     }
+}
 }

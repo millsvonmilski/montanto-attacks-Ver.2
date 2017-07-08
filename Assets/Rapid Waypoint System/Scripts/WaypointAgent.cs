@@ -1,24 +1,30 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+namespace rapid
+{
+
 [System.Serializable]
-public class WaypointAgent : MonoBehaviour {
+public class WaypointAgent : MonoBehaviour 
+{
     
     [SerializeField] protected float minAgentSpeed = 10;
     [SerializeField] protected float maxAgentSpeed = 20;
     [SerializeField] protected WaypointManager m_waypointManager;
 
-	[HideInInspector] protected int currentIndex = 0;
-    [HideInInspector] public GameObject currentTarget;
-    [HideInInspector] public Vector3 currentNodeTarget = Vector3.zero;
-	[HideInInspector] public bool waypointUpdatingEntity = false;
+	protected int currentIndex = 0;
+    public GameObject currentTarget;
+    public Vector3 currentNodeTarget = Vector3.zero;
+	public bool waypointUpdatingEntity = false;
 
 	protected float speed = 10;
-    protected Vector3 directionVector = new Vector3(0,1,0);
+    protected Vector3 directionVector = new Vector3(0,1,0); 
     protected float m_nodeProximityDistance = 0.1f;
     protected float m_slerpRotationSpeed = 0.1f;
     protected WaypointRotationMode m_waypointRotationMode;
 
+                                            /* PROPIEDADES */
     public WaypointManager WaypointSystem {  set { m_waypointManager = value; } }
     public WaypointRotationMode WaypointRotation { set { m_waypointRotationMode = value; } }
     public float SlerpSpeed { set { m_slerpRotationSpeed = value; } }
@@ -40,13 +46,13 @@ public class WaypointAgent : MonoBehaviour {
     protected IEnumerator DieAnimDelay()
     {
         yield return new WaitForSeconds(/*animations.GetClip("AI_Basic_Death").averageDuration + */2.5f);
-        Destroy(gameObject);
+        Destroy(gameObject); // Esto destruye el objeto actual, que es el enemigo pero no se porque
     }
 
     protected IEnumerator DieWithDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        Destroy(gameObject);
+        Destroy(gameObject); // Esto destruye el objeto actual, que es el enemigo pero no se porque
     }
 
 	public virtual void SwitchTarget(GameObject newTarget)
@@ -133,4 +139,5 @@ public class WaypointAgent : MonoBehaviour {
         }
     }
 
+}
 }

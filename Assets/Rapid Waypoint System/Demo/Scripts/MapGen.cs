@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+namespace rapid
+{
 public class MapGen : MonoBehaviour {
 
     public GameObject[,] tiles;
@@ -58,4 +60,5 @@ public class MapGen : MonoBehaviour {
             }
         }
     }
+}
 }
